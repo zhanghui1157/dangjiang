@@ -1,0 +1,7 @@
+
+.notes-list{width: 100%;background: #fff;border-radius: 10rpx;}
+.notes-list-item{width: 96%;margin: auto;border-bottom: 1px solid #e8e8e8;}
+.notes-list-item:last-child{border: 0px;}
+.notes-title{line-height: 40rpx;padding: 25rpx 0;}
+.notes-time{font-size: 12px;width: 100%;text-align: right;line-height: 35rpx;color:#B3B3B3;}
+

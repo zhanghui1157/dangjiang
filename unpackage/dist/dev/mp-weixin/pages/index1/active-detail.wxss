@@ -1,0 +1,7 @@
+
+.head-title{width: 90%;padding: 50rpx;line-height: 30rpx;text-align: center;color: red;font-weight: bold;}
+.item-list{width: 90%;margin: auto;border-top: 1px dashed red;display: -webkit-box;display: -webkit-flex;display: flex;}
+.item-list:last-child{border-bottom: 1px dashed red;}
+.item-txt{-webkit-box-flex: 3;-webkit-flex: 3;flex: 3;line-height: 40rpx;text-align: center;border-left: 1px dashed red;border-right:  1px dashed red;padding:20rpx;}
+.item-num{-webkit-box-flex: 2;-webkit-flex: 2;flex: 2;line-height: 40rpx;text-align: center;border-right: 1px dashed red;padding:20rpx;}
+

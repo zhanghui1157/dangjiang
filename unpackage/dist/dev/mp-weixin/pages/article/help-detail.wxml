@@ -1,0 +1,1 @@
+<view class="content"><view class="main-content"><view class="help-title">{{detail.article_title}}</view><view class="help-time">{{detail.add_time}}</view><view class="help-content"><rich-text nodes="{{detail.article_content}}"></rich-text></view></view></view>

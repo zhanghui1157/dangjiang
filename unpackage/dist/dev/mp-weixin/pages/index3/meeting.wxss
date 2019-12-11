@@ -1,0 +1,16 @@
+
+.nav-list{width: 100%;display: -webkit-box;display: -webkit-flex;display: flex;height: 70rpx;-webkit-box-pack: justify;-webkit-justify-content: space-between;justify-content: space-between;border-bottom: 1px solid #e8e8e8;}
+.nav-item{-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;}
+.nav-text{width: 100%;height: 60rpx;text-align: center;line-height: 70rpx;}
+.nav-line{width:40%;margin: auto;border-top: 1px solid #e93a30;}
+.meeting-list{width: 100%;padding: 20rpx 2%;border-bottom: 1px solid #e8e8e8;}
+.meeting-top{display: -webkit-box;display: -webkit-flex;display: flex;}
+.meeting-img{-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;height: 180rpx;}
+.meeting-img image{height: 100%;width: 100%;}
+.meeting-info{-webkit-box-flex: 2;-webkit-flex: 2;flex: 2;padding-left: 20rpx;}
+.meeting-title{font-weight: bold;color: #000;line-height: 30rpx;padding-bottom: 10rpx;}
+.meeting-time{color: red;font-size: 12px;line-height:40rpx;}
+.meeting-addr{font-size: 12px;line-height:40rpx;}
+.meeting-content{width:100%;font-size: 12px;line-height:40rpx;/* overflow:hidden;text-overflow:ellipsis;white-space:nowrap; */}
+.meeting-memo{width:100%;font-size: 12px;line-height:40rpx;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+

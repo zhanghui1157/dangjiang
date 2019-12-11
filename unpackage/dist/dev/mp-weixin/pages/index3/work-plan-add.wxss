@@ -1,0 +1,9 @@
+
+.form-item{width: 96%;margin: auto;}
+.list-item{width: 100%;display: -webkit-box;display: -webkit-flex;display: flex;height: 100rpx;border-bottom: 1px solid #e8e8e8;}
+.list-item:last-child{border: 0rpx;}
+.item-text{-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;height: 100rpx;line-height: 100rpx;color: #B3B3B3;}
+.item-input{-webkit-box-flex: 4;-webkit-flex: 4;flex: 4;height: 100rpx;}
+.item-input input{height: 100rpx;width: 100%;font-size: 14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+textarea{width: 96%;padding: 10rpx;font-size: 14px;}
+

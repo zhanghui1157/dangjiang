@@ -1,0 +1,481 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+		    "path" : "pages/index/index",
+		    "style" : {
+				"navigationBarTitleText": "共享集团智慧党建",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "pages/index1/index",
+		    "style" : {
+				"navigationBarTitleText": "党务工作"
+			}
+		},
+		{
+		    "path" : "pages/index2/index",
+		    "style" : {
+				"navigationBarTitleText": "党员学习"
+			}
+		},
+		{
+		    "path" : "pages/index3/index",
+		    "style" : {
+				"navigationBarTitleText": "我是党员",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "pages/index/net-dang",
+		    "style" : {
+				"navigationBarTitleText": "党组织详情"
+			}
+		},
+		{
+		    "path" : "pages/index/test-center",
+		    "style" : {
+				"navigationBarTitleText": "考试中心"
+			}
+		},
+		{
+		    "path" : "pages/index/study-info",
+		    "style" : {
+				"navigationBarTitleText": "在线党校"
+			}
+		},
+		{
+		    "path" : "pages/index/san-hui",
+		    "style" : {
+				"navigationBarTitleText": "三会一课"
+			}
+		},
+		{
+		    "path" : "pages/index/test-info",
+		    "style" : {
+				"navigationBarTitleText": "考试中心"
+			}
+		},
+		{
+		    "path" : "pages/article/edumaterial-detail",
+		    "style" : {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+		    "path" : "pages/index1/fee",
+		    "style" : {
+				"navigationBarTitleText": "党费缴纳"
+			}
+		},
+		{
+		    "path" : "pages/index1/work-plan",
+		    "style" : {
+				"navigationBarTitleText": "党委工作计划"
+			}
+		},
+		{
+		    "path" : "pages/index1/zhibu-work-plan",
+		    "style" : {
+				"navigationBarTitleText": "支部工作计划"
+			}
+		},
+		{
+		    "path" : "pages/index2/study-log",
+		    "style" : {
+				"navigationBarTitleText": "学习笔记"
+			}
+		},
+		{
+		    "path" : "pages/article/article_detail",
+		    "style" : {
+				"navigationBarTitleText": "文章详情"
+			}
+		},
+		{
+		    "path" : "pages/article/article-list",
+		    "style" : {
+				"navigationBarTitleText": "文章列表",
+				"enablePullDownRefresh": true
+			}
+		}
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "共享集团智慧党建"
+			}
+        }
+        ,{
+            "path" : "pages/dang/index",
+            "style" : {
+				"navigationBarTitleText": "共享集团智慧党建"
+			}
+        },
+		{
+		    "path" : "pages/index/diff-help",
+		    "style" : {
+				"navigationBarTitleText": "困难帮扶"
+			}
+		},
+		{
+		    "path" : "pages/article/help-detail",
+		    "style" : {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+		    "path" : "pages/article/help-one-detail",
+		    "style" : {
+				"navigationBarTitleText": "帮扶一对一"
+			}
+		},
+		{
+		    "path" : "pages/article/help-list",
+		    "style" : {
+				"navigationBarTitleText": "扶贫动态"
+			}
+		},
+		{
+		    "path" : "pages/article/help-one-list",
+		    "style" : {
+				"navigationBarTitleText": "帮扶一对一"
+			}
+		},
+		{
+		    "path" : "pages/index/forum",
+		    "style" : {
+				"navigationBarTitleText": "先锋论坛"
+			}
+		},
+		{
+		    "path" : "pages/index/volunteer",
+		    "style" : {
+				"navigationBarTitleText": "志愿者服务"
+			}
+		},
+		{
+		    "path" : "pages/index/volunteer-detail",
+		    "style" : {
+				"navigationBarTitleText": "活动详情"
+			}
+		},
+        {
+            "path" : "pages/zhuanti/index",
+            "style" : {
+				"navigationBarTitleText": "专题学习"
+			}
+        },
+		{
+		    "path" : "pages/zhuanti/zhuanti-list",
+		    "style" : {
+				"navigationBarTitleText": "专题学习"
+			}
+		},
+		{
+		    "path" : "pages/zhuanti/notes-detail",
+		    "style" : {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+		    "path" : "pages/zhuanti/article-list",
+		    "style" : {
+				"navigationBarTitleText": "专题课件"
+			}
+		},
+		{
+		    "path" : "pages/zhuanti/notes-list",
+		    "style" : {
+				"navigationBarTitleText": "学习实况"
+			}
+		},
+		{
+		    "path" : "pages/zhuanti/video-list",
+		    "style" : {
+				"navigationBarTitleText": "专题视频"
+			}
+		},
+		{
+		    "path" : "pages/index3/detail",
+		    "style" : {
+				"navigationBarTitleText": "党员详情"
+			}
+		},
+		{
+		    "path" : "pages/index3/integral",
+		    "style" : {
+				"navigationBarTitleText": "积分详情"
+			}
+		},
+		{
+		    "path" : "pages/index3/add-notes",
+		    "style" : {
+				"navigationBarTitleText": "新建笔记"
+			}
+		},
+		{
+		    "path" : "pages/index3/exam",
+		    "style" : {
+				"navigationBarTitleText": "我的考试"
+			}
+		},
+		{
+		    "path" : "pages/index3/exam-detail",
+		    "style" : {
+				"navigationBarTitleText": "考试答案"
+			}
+		},
+		{
+		    "path" : "pages/index3/volunteer",
+		    "style" : {
+				"navigationBarTitleText": "志愿者申请"
+			}
+		},
+		{
+		    "path" : "pages/index3/missive-add",
+		    "style" : {
+				"navigationBarTitleText": "发起公文"
+			}
+		},
+		{
+		    "path" : "pages/index3/people-list",
+		    "style" : {
+				"navigationBarTitleText": "选择人员"
+			}
+		},
+		{
+		    "path" : "pages/index3/work-plan-people",
+		    "style" : {
+				"navigationBarTitleText": "选择人员"
+			}
+		},
+		{
+		    "path" : "pages/index/missive",
+		    "style" : {
+				"navigationBarTitleText": "公文收发"
+			}
+		},
+		{
+		    "path" : "pages/index/missive-detail",
+		    "style" : {
+				"navigationBarTitleText": "公文详情"
+			}
+		},
+		{
+		    "path" : "pages/index1/active-plan",
+		    "style" : {
+				"navigationBarTitleText": "党日活动计划汇总"
+			}
+		},
+		{
+		    "path" : "pages/index1/active-detail",
+		    "style" : {
+				"navigationBarTitleText": "组织党日计划详情"
+			}
+		},
+		{
+		    "path" : "pages/index1/work-plan-detail",
+		    "style" : {
+				"navigationBarTitleText": "党委工作计划详情"
+			}
+		},
+		{
+		    "path" : "pages/index3/work-plan-add",
+		    "style" : {
+				"navigationBarTitleText": "添加工作计划"
+			}
+		},
+		{
+		    "path" : "pages/index3/day-report",
+		    "style" : {
+				"navigationBarTitleText": "新建日报"
+			}
+		},
+		{
+		    "path" : "pages/index1/report-list",
+		    "style" : {
+				"navigationBarTitleText": "日报管理",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "pages/index1/report-detail",
+		    "style" : {
+				"navigationBarTitleText": "日报详情"
+			}
+		},
+		{
+		    "path" : "pages/index3/notice-add",
+		    "style" : {
+				"navigationBarTitleText": "发起公告"
+			}
+		},
+		{
+		    "path" : "pages/index1/notice",
+		    "style" : {
+				"navigationBarTitleText": "通知公告"
+			}
+		},
+		{
+		    "path" : "pages/index1/notice-detail",
+		    "style" : {
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		{
+		    "path" : "pages/index3/notice-people-list",
+		    "style" : {
+				"navigationBarTitleText": "人员列表"
+			}
+		},
+		{
+		    "path" : "pages/index1/survey",
+		    "style" : {
+				"navigationBarTitleText": "调查问卷"
+			}
+		},
+		{
+		    "path" : "pages/index1/survey-detail",
+		    "style" : {
+				"navigationBarTitleText": "问卷详情"
+			}
+		},
+		{
+		    "path" : "pages/index1/plat",
+		    "style" : {
+				"navigationBarTitleText": "便民服务大厅"
+			}
+		},
+		{
+		    "path" : "pages/index1/dang-log",
+		    "style" : {
+				"navigationBarTitleText": "党员发展全纪实"
+			}
+		},
+		{
+		    "path" : "pages/index1/dang-log-detail",
+		    "style" : {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+		    "path" : "pages/index1/dang-moving",
+		    "style" : {
+				"navigationBarTitleText": "流动党员之家"
+			}
+		},
+		{
+		    "path" : "pages/index3/meeting",
+		    "style" : {
+				"navigationBarTitleText": "历史会议"
+			}
+		},
+		{
+		    "path" : "pages/index/meeting-detail",
+		    "style" : {
+				"navigationBarTitleText": "会议详情"
+			}
+		},
+		{
+		    "path" : "pages/index1/zhibu-work-plan-detail",
+		    "style" : {
+				"navigationBarTitleText": "工作详情"
+			}
+		},
+		{
+		    "path" : "pages/index/web-page1",
+		    "style" : {
+				"navigationBarTitleText": "中国非公企业党建网站"
+			}
+		},
+		{
+		    "path" : "pages/index/web-page2",
+		    "style" : {
+				"navigationBarTitleText": "银川党建网站"
+			}
+		},
+		{
+		    "path" : "pages/index/web-page3",
+		    "style" : {
+				"navigationBarTitleText": "共产党员网站"
+			}
+		},
+		{
+		    "path" : "pages/index3/add-help",
+		    "style" : {
+				"navigationBarTitleText": "申请帮扶"
+			}
+		},
+		{
+		    "path" : "pages/article/material-article-list",
+		    "style" : {
+				"navigationBarTitleText": "文章列表"
+			}
+		},
+		{
+		    "path" : "pages/article/material-video-list",
+		    "style" : {
+				"navigationBarTitleText": "视频列表"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#e93a30",
+		"backgroundColor": "#ffffff"
+	},
+	"permission": {
+		"scope.userLocation": {
+		  "desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#e93a30",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/img/nav/nav1_1.png",
+			"selectedIconPath": "static/img/nav/nav1_2.png",
+			"text": "首页"
+		},
+		{
+			"pagePath": "pages/index1/index",
+			"iconPath": "static/img/nav/nav2_1.png",
+			"selectedIconPath": "static/img/nav/nav2_2.png",
+			"text": "党务工作"
+		},
+		{
+			"pagePath": "pages/index2/index",
+			"iconPath": "static/img/nav/nav3_1.png",
+			"selectedIconPath": "static/img/nav/nav3_2.png",
+			"text": "党员学习"
+		},
+		{
+			"pagePath": "pages/index3/index",
+			"iconPath": "static/img/nav/nav4_1.png",
+			"selectedIconPath": "static/img/nav/nav4_2.png",
+			"text": "我的"
+		}
+	]},
+	"h5": {
+		"async": {	
+			"delay": 100000,		
+			"timeout": 120000
+		},
+		"networkTimeout": {
+		
+			"request": 40000,
+			
+			"connectSocket":40000,
+			"uploadFile":40000,
+			"downloadFile":40000
+		},
+		"networkTimeout": {
+			"request": 10000
+		}
+	}
+}

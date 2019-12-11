@@ -1,0 +1,17 @@
+
+.fee-title{width: 100%;height: 80rpx;line-height: 80rpx;text-align: center;margin-top: 50rpx;font-size: 16px;}
+.fee-intro{color: #A1A1A1;margin-bottom: 30rpx;}
+.fee-money{width:100%;display: -webkit-box;display: -webkit-flex;display: flex;margin: 20rpx auto;color: #e93a30;}
+.money-detial{-webkit-box-flex: 4;-webkit-flex: 4;flex: 4;text-align: right;font-size: 24px;font-weight: bold;}
+.money-text{-webkit-box-flex: 3;-webkit-flex: 3;flex: 3;text-align: left;padding-left: 5rpx;line-height: 30rpx;margin-top: 20rpx;}
+.fee-month{width: 100%;text-align: center;color: #A1A1A1;}
+.fee-btn{height: 80rpx;width: 100%;text-align: center;line-height: 80rpx;background: #e93a30;color: #fff;font-size: 16px;border-radius:15rpx;margin:0rpx auto;margin-top: 100rpx;}
+.fee-info{color: #A1A1A1;line-height: 40rpx;margin-top: 20rpx;}
+.select-title{padding-bottom: 30rpx;}
+.select-list-item{width: 98%;margin: auto;}
+.item-list{display: -webkit-box;display: -webkit-flex;display: flex;}
+.fee-img{-webkit-box-flex: 1.5;-webkit-flex: 1.5;flex: 1.5;height: 80rpx;}
+.fee-img image{height: 50rpx;width: 50rpx;margin:0 auto;margin-top: 30rpx;}
+.fee-txt{-webkit-box-flex: 8;-webkit-flex: 8;flex: 8;height: 80rpx;line-height: 100rpx;text-align: left;}
+.fee-desc{text-align: right;font-size: 12px;padding-bottom:10rpx;color: #e93a30;}
+

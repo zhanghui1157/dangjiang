@@ -1,0 +1,10 @@
+
+page{background:#f3f3f3;}
+.swiper{height: 350rpx;width: 100%;}
+.swiper-item {display: block;height: 350rpx;line-height: 350rpx;text-align: center;border-radius: 15rpx;}
+.swiper-item ._img{height: 100%;width: 100%;}
+.list-item{height: 400rpx;width: 46%;background: #fff;border-radius: 10rpx;margin: 20rpx 2%;float: left;box-shadow: 3px 3px 4px rgba(26, 26, 26, 0.2);}
+.list-title{width: 100%;background: -webkit-linear-gradient(left,red, #ff6600);background: linear-gradient(left,red, #ff6600);height: 100rpx;text-align: center;line-height: 100rpx;font-size: 14px;color: #fff;font-weight: bold;border-radius: 10rpx 10rpx 0 0;}
+.list-content{width: 92%;margin:10rpx auto;font-size: 14px;line-height: 50rpx;}
+.footer{clear: both;height: 60rpx;}
+

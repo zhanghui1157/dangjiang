@@ -1,0 +1,32 @@
+
+page{background: #fff;}
+.user-section{width:100%;height:590rpx;}
+.user-bg{width:100%;height:510rpx;background:#e93a30;}
+.user-img{width:26%;height:250rpx;position:absolute;top:40rpx;left:37%;}
+.user-img image{height:250rpx;width:100%;border-radius:20rpx}
+.user-name{width:100%;color:#fff;text-align:center;line-height:50rpx;position:absolute;top:300rpx;font-size:16px;font-weight:bold}
+.user-depart{width:100%;position:absolute;top:360rpx;}
+.user-depar-detail{width:auto;margin:auto;padding:10rpx 10rpx;/* background: linear-gradient(top, #ff6600,#ff9933); */text-align: center;color: #fff;font-weight: bold;}
+.user-content{width:100%;position:absolute;top:440rpx;}
+.user-list{width:85%;margin:auto;border-radius:10rpx;display:-webkit-box;display:-webkit-flex;display:flex;background:#fff;border:1px solid #e8e8e8;box-shadow: 1px 4px 6px rgba(26, 26, 26, 0.2);}
+.user-list-item{-webkit-box-flex:1;-webkit-flex:1;flex:1;text-align:center;padding:20rpx 0;}
+.user-list-item-icon{font-size: 28px;padding-bottom:10rpx}
+.list-item{height: 100rpx;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;justify-content: space-between;line-height: 100rpx;border-bottom: 1px solid #e8e8e8;}
+.list-item:last-child{border-bottom: 0rpx;}
+.list-icon{-webkit-box-flex: 1.5;-webkit-flex: 1.5;flex: 1.5;font-size: 28px;}
+.list-text{-webkit-box-flex: 10;-webkit-flex: 10;flex: 10;}
+.list-to-iconicon{-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;text-align: right;}
+.user-info{width: 100%;background: #f3f3f3;display: -webkit-box;display: -webkit-flex;display: flex;padding: 20rpx 10rpx;}
+.user-title{-webkit-box-flex: 3;-webkit-flex: 3;flex: 3;padding: 30rpx 0rpx 0 10rpx;}
+.user-title view{font-weight: bold;line-height: 60rpx;color: #5A5A5A;font-size: 14px;}
+.section-list{width: 92%;margin:10rpx auto;border-radius: 10rpx;background: #fff;}
+.section-title{height: 30rpx;padding: 20rpx;}
+.line-img{height: 30rpx;width: 10rpx;float: left;}
+.line-img image{height: 100%;width: 100%;}
+.section-title-text{height: 30rpx;float: left;margin-left: 20rpx;font-size: 16px;font-weight: bold;line-height: 30rpx;color: rgba(252, 152, 118, 1);}
+.section-content{width:96%;display: -webkit-box;display: -webkit-flex;display: flex;margin: auto;}
+.list-title{-webkit-box-flex: 3;-webkit-flex: 3;flex: 3;}
+.list-title view{font-weight: bold;font-size: 16px;color: #000;line-height:60rpx;}
+.list-content{-webkit-box-flex: 6;-webkit-flex: 6;flex: 6;}
+.list-content view{font-size: 14px;color: #AAA;line-height:60rpx;}
+

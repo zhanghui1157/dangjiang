@@ -1,0 +1,30 @@
+
+page{background: #f3f3f3;}
+.zhuanti-img{width: 100%;height: 350rpx;margin: 20rpx 0;}
+.zhuanti-img image{height: 100%;width: 100%;border-radius: 10rpx;}
+.section-title{height: 50rpx;padding: 20rpx 20rpx 60rpx 20rpx;clear: both;}
+.line-img{height: 30rpx;width: 10rpx;float: left;margin-top: 10rpx;}
+.line-img image{height: 100%;width: 100%;}
+.section-title-text{height: 50rpx;float: left;margin-left: 20rpx;font-size: 16px;font-weight: bold;line-height: 50rpx;color: rgba(252, 152, 118, 1);}
+.news-more{width:20%;float: right;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-pack: end;-webkit-justify-content: flex-end;justify-content: flex-end;color: #B3B3B3;line-height: 50rpx;}
+.news-more-text{font-size: 12px;}
+.video-head{width: 98%;padding: 10rpx;margin: auto;background: #fff;border-radius: 10rpx;}
+.video-head-img{height: 200rpx;width: 100%;border-radius: 10rpx;}
+.video-head-img image{height: 100%;width: 100%;border-radius: 10rpx;}
+.video-head-title{width: 100%;line-height: 50rpx;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;margin-top: 10rpx;}
+.video-head-time{font-size: 12px;width: 100%;text-align: right;line-height: 40rpx;color:#B3B3B3;}
+.video-content{width: 100%;margin:10rpx auto;}
+.video-list{width: 48%;margin: 10rpx 1%;float: left;background: #fff;border-radius: 10rpx;}
+.video-list-content{width: 90%;height: 180rpx;margin:10rpx 5%;border-radius: 10rpx;}
+.video-list-content image{width: 100%;height: 100%;border-radius: 10rpx;}
+.head-video-title{line-height: 50rpx;height: 50rpx;width: 100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.head-video-time{width: 100%;text-align: right;color: #B3B3B3;font-size: 10px;}
+.list-text{width:90%;padding:0 5% 20rpx 5%;clear:both;}
+.video-info-detail{width: 100%;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;justify-content: space-between;padding: 10rpx 0;}
+.video-detail{-webkit-box-flex: 5;-webkit-flex: 5;flex: 5;text-align: right;font-size: 12px;color: #B3B3B3;float: left;height: 10rpx;line-height: 15rpx;padding:0 20rpx 10rpx 0;}
+.notes-list{width: 100%;background: #fff;border-radius: 10rpx;}
+.notes-list-item{width: 96%;margin: auto;border-bottom: 1px solid #e8e8e8;}
+.notes-list-item:last-child{border: 0px;}
+.notes-title{line-height: 40rpx;padding: 20rpx 0;}
+.notes-time{font-size: 12px;width: 100%;text-align: right;line-height: 30rpx;color:#B3B3B3;}
+

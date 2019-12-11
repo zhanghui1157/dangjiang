@@ -1,0 +1,10 @@
+
+page{background:#f3f3f3;}
+.test-list{width: 94%;background: #fff;border-radius: 10rpx;padding: 15rpx;margin:20rpx auto;}
+.test-head{display: -webkit-box;display: -webkit-flex;display: flex;}
+.test-range,.test-point,.test-time,.test-end{font-size: 14px;line-height: 40rpx;}
+.test-title{-webkit-box-flex: 10;-webkit-flex: 10;flex: 10;font-size: 14px;font-weight: bold;line-height: 50rpx;}
+.test-status{-webkit-box-flex: 2;-webkit-flex: 2;flex: 2;height: 42rpx;line-height: 42rpx;text-align: center;background: #e93a30;color: #fff;}
+.test-info{width: 60%;float: left;}
+.test-btn{width:25%;float: right;border-radius: 25rpx;height: 50rpx;text-align: center;line-height: 50rpx;background: rgb(255,58,65);color:#fff;margin-top: 40rpx;}
+

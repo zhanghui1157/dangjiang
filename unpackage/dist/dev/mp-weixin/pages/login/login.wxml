@@ -1,0 +1,1 @@
+<view><view class="content"><view class="main-content"><form data-event-opts="{{[['submit',[['formSubmit',['$event']]]],['reset',[['formReset',['$event']]]]]}}" bindsubmit="__e" bindreset="__e"><view class="idcard"><input name="idnumber" placeholder="请输入身份证号码"/></view><button class="login-btn" formType="submit">登录</button></form></view></view></view>

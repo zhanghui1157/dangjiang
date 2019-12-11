@@ -1,0 +1,8 @@
+
+.notes-input{width: 100%;display: -webkit-box;display: -webkit-flex;display: flex;height: 100rpx;border-bottom: 1px solid #e8e8e8;}
+.notes-text{-webkit-box-flex: 3;-webkit-flex: 3;flex: 3;text-align: center;line-height: 100rpx;font-size: 14px;}
+.notes-input{-webkit-box-flex: 9;-webkit-flex: 9;flex: 9;}
+input{height: 100rpx;font-size: 14px;width: 100%;line-height: 100rpx;}
+textarea{width: 100%;padding: 10rpx;margin:20rpx auto;height: 200rpx;border: 1px solid #e8e8e8;border-radius: 10rpx;font-size: 14px;}
+.add-btn{height: 80rpx;width: 100%;text-align: center;line-height: 80rpx;background: #e93a30;color: #fff;font-size: 16px;border-radius:15rpx;margin: 100rpx auto;}
+

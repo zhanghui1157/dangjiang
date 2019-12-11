@@ -1,0 +1,8 @@
+
+.dang-list{width: 100%;display: -webkit-box;display: -webkit-flex;display: flex;border-bottom: 1px solid #f0eded;padding: 10rpx 0;}
+.dang-img{-webkit-box-flex: 1.5;-webkit-flex: 1.5;flex: 1.5;height: 80rpx;}
+.dang-img image{height: 100%;width: 80rpx;margin: auto;border-radius: 50%;}
+.dang-info{-webkit-box-flex: 8;-webkit-flex: 8;flex: 8;}
+.dang-name{font-weight: bold;line-height: 40rpx;}
+.dang-partno{color: #B3B3B3;line-height: 40rpx;}
+

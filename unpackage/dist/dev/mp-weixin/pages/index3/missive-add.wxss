@@ -1,0 +1,13 @@
+
+.form-item{width: 96%;margin: auto;}
+.list-item{width: 100%;display: -webkit-box;display: -webkit-flex;display: flex;height: 100rpx;border-bottom: 1px solid #e8e8e8;}
+.list-item:last-child{border: 0rpx;}
+.item-text{-webkit-box-flex: 2;-webkit-flex: 2;flex: 2;height: 100rpx;line-height: 100rpx;color: #B3B3B3;}
+.item-input{-webkit-box-flex: 8;-webkit-flex: 8;flex: 8;height: 100rpx;display: -webkit-box;display: -webkit-flex;display: flex;}
+.item-input input{-webkit-box-flex: 5;-webkit-flex: 5;flex: 5;height: 100rpx;font-size: 14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.item-input view{-webkit-box-flex: 2;-webkit-flex: 2;flex: 2;line-height: 100rpx;text-align: right;color: red;}
+textarea{width: 96%;padding: 10rpx;font-size: 14px;}
+.file-list{padding: 20rpx 0;display: -webkit-box;display: -webkit-flex;display: flex;width: 100%;color: #B3B3B3;}
+.file-name{-webkit-box-flex: 4;-webkit-flex: 4;flex: 4;overflow: hidden;}
+.file-del{-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;text-align: center;}
+

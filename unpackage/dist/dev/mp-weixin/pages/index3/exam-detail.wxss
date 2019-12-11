@@ -1,0 +1,16 @@
+
+page{background:#f3f3f3;}
+.test-top{width: 100%;display: -webkit-box;display: -webkit-flex;display: flex;border-radius: 10rpx;background: #fff;margin: 10rpx auto;}
+.test-info{-webkit-box-flex: 6;-webkit-flex: 6;flex: 6;padding: 20rpx;}
+.test-info view{line-height: 50rpx;}
+.test-score{-webkit-box-flex:3;-webkit-flex:3;flex:3;height: 100%;background: #e93a30;border-radius: 0 10rpx 0 0;height: 200rpx;color: #fff;}
+.test-score-text{margin-top: 50rpx;text-align: center;width:100%;font-weight:bold;line-height:50rpx}
+.test-score-num{text-align: center;width:100%;font-weight:bold;line-height:50rpx}
+.question-list{width: 100%;margin:20rpx auto;background: #fff;border-radius: 10rpx;padding: 15rpx 2%;}
+.question-title{line-height: 50rpx;font-size: 14px;font-weight: bold;}
+.question-answer{width: 100%;}
+.question-answer-list{min-height: 60rpx;line-height: 60rpx;margin: 20rpx 10rpx;padding: 0 20rpx;border-radius: 10rpx;display: -webkit-box;display: -webkit-flex;display: flex;}
+.answer-list-check{-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;}
+.answer-list-text{-webkit-box-flex: 10;-webkit-flex: 10;flex: 10;}
+.answer-decs{color: red;}
+

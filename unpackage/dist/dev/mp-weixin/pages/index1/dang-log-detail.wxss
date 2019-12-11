@@ -1,0 +1,90 @@
+
+page{background: #f3f3f3;}
+.content-info{width: 96%;margin: 20rpx auto;padding: 20rpx;background: #fff;border-radius: 10rpx;}
+.log-detail{width: 100%;display: -webkit-box;display: -webkit-flex;display: flex;}
+.log-img{-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;height: 220rpx;padding-right: 20rpx;}
+.log-img image{height: 100%;width: 100%;}
+.log-info{-webkit-box-flex: 3;-webkit-flex: 3;flex: 3;}
+.log-name{font-weight: bold;line-height:70rpx;font-size: 14px;}
+.log-info-detial{width: 100%;display: -webkit-box;display: -webkit-flex;display: flex;color: #B3B3B3;line-height:70rpx}
+.log-info-left{-webkit-box-flex: 1.5;-webkit-flex: 1.5;flex: 1.5;}
+.log-info-right{-webkit-box-flex: 3;-webkit-flex: 3;flex: 3;}
+.log-title{width: 100%;padding: 20rpx 0;text-align: center;font-weight: bold;}
+.uni-timeline {
+	margin: 35rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	position: relative;
+}
+.uni-timeline-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	position: relative;
+	padding-bottom: 20rpx;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.uni-timeline-item .uni-timeline-item-keynode {
+	width: 200rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	box-sizing: border-box;
+	padding-right: 20rpx;
+	text-align: right;
+	line-height: 105rpx;
+}
+.uni-timeline-item .uni-timeline-item-divider {
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	position: relative;
+	width: 30rpx;
+	height: 30rpx;
+	top: 15rpx;
+	border-radius: 50%;
+	background-color: #fec073;
+}
+.uni-timeline-item-divider::before,
+.uni-timeline-item-divider::after {
+	position: absolute;
+	left: 15rpx;
+	width: 1rpx;
+	height: 100vh;
+	content: '';
+	background: inherit;
+}
+.uni-timeline-item-divider::before {
+	bottom: 100%;
+}
+.uni-timeline-item-divider::after {
+	top: 100%;
+}
+.uni-timeline-last-item .uni-timeline-item-divider:after {
+	display: none;
+}
+.uni-timeline-first-item .uni-timeline-item-divider:before {
+	display: none;
+}
+.uni-timeline-item .uni-timeline-item-content {
+	padding-left: 20rpx;
+}
+.uni-timeline-last-item .bottom-border::after{
+	display: none;
+}
+.uni-timeline-item-content .datetime{
+	color: #CCCCCC;
+}
+/* 自定义节点颜色 */
+.uni-timeline-last-item .uni-timeline-item-divider{
+	background-color: #fec073;
+}
+

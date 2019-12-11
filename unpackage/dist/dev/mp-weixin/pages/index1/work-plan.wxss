@@ -1,0 +1,7 @@
+
+.list-item{width: 100%;padding: 20rpx 10rpx;line-height: 40rpx;display: -webkit-box;display: -webkit-flex;display: flex;border-bottom: 1px solid #e8e8e8;}
+.head-title{color: red;font-weight: bold;text-align: center;}
+.item1{-webkit-box-flex: 4;-webkit-flex: 4;flex: 4;border-right: 1px solid #e8e8e8;}
+.item2{-webkit-box-flex: 3;-webkit-flex: 3;flex: 3;text-align:center;border-right: 1px solid #e8e8e8;}
+.item3{-webkit-box-flex: 2;-webkit-flex: 2;flex: 2;text-align:center}
+

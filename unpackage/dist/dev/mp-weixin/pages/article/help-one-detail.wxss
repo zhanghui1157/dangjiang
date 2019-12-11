@@ -1,0 +1,13 @@
+
+.help-title{width: 80%;padding: 10rpx 0;margin:20rpx auto;display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-pack: justify;-webkit-justify-content: space-between;justify-content: space-between;}
+.help-list{-webkit-box-flex: 4;-webkit-flex: 4;flex: 4;}
+.help-arrow{-webkit-box-flex: 3;-webkit-flex: 3;flex: 3;}
+.help-img{height: 80rpx;width: 80rpx;margin: auto;}
+.help-img image{height: 100%;width: 100%;}
+.help-people{width: 100%;text-align: center;line-height:50rpx;}
+.help-source{width: 100%;text-align: center;color: #e93a30;line-height:40rpx;}
+.help-line{width: 100%;border-bottom: 1px solid #e8e8e8;}
+.help-info{width: 94%;margin: 30rpx auto;}
+.help-head{font-size: 14px;font-weight: bold;text-align: center;line-height: 50rpx;}
+.help-time{font-size: 12px;color: #B3B3B3;width: 100%;text-align: right;line-height: 50rpx;}
+

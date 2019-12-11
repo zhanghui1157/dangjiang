@@ -1,0 +1,14 @@
+
+page{background:#f3f3f3;}
+.section-list{width: 96%;margin: auto;border-radius: 10rpx;background: #fff;}
+.line-img{height: 30rpx;width: 10rpx;float: left;}
+.line-img image{height: 100%;width: 100%;}
+.section-title-text{width: 50%;float: left;margin-left: 20rpx;font-size: 14px;font-weight: bold;line-height: 50rpx;color: rgba(254, 192, 115, 1);}
+.head-img{width: 100%;}
+.head-img image{width: 100%;height: 350rpx;}
+.test-list{width: 94%;background: #fff;border-radius: 10rpx;padding: 15rpx;margin:20rpx auto;}
+.test-range,.test-point,.test-time,.test-end{font-size: 14px;line-height: 40rpx;}
+.test-title{width: 100%;font-size: 14px;font-weight: bold;line-height: 50rpx;}
+.test-info{width: 60%;float: left;}
+.test-btn{width:25%;float: right;border-radius: 25rpx;height: 50rpx;text-align: center;line-height: 50rpx;background: rgb(255,58,65);color:#fff;margin-top: 40rpx;}
+

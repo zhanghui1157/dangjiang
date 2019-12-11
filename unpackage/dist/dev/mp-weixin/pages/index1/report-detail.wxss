@@ -1,0 +1,17 @@
+
+.report-head{width: 100%;display: -webkit-box;display: -webkit-flex;display: flex;}
+.report-left{-webkit-box-flex: 5;-webkit-flex: 5;flex: 5;padding: 20rpx;line-height: 50rpx;}
+.report-title{font-weight: bold;}
+.report-checker{font-size: 12px;color: #B3B3B3;}
+.report-right{-webkit-box-flex: 1.5;-webkit-flex: 1.5;flex: 1.5;padding: 20rpx;font-size: 12px;color: red;}
+.report-time{width: 100%;text-align: center;line-height: 50rpx;}
+.report-type{padding: 10rpx;text-align: center;line-height: 20rpx;background: red;border-radius: 10rpx;color: #fff;}
+.report-content{padding: 20rpx;}
+.form-item{width: 96%;margin: auto;}
+.file-title{line-height: 50rpx;font-weight: bold;}
+.file-list{padding: 20rpx 0;display: -webkit-box;display: -webkit-flex;display: flex;width: 100%;color: #B3B3B3;border-bottom: 1px solid #e8e8e8;}
+.file-list:last-child{border: 0rpx;}
+.file-name{-webkit-box-flex: 4;-webkit-flex: 4;flex: 4;overflow: hidden;}
+.file-size{-webkit-box-flex: 2;-webkit-flex: 2;flex: 2;overflow: hidden;text-align:center;}
+.file-del{-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;text-align: center;text-align:center;}
+

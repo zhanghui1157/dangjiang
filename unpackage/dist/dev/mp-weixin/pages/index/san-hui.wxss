@@ -1,0 +1,18 @@
+
+.swiper{height: 350rpx;width: 100%;}
+.swiper-item {display: block;height: 350rpx;line-height: 350rpx;text-align: center;border-radius: 15rpx;}
+.swiper-item ._img{height: 100%;width: 100%;}
+.meeting-list{width: 90%;margin:20rpx auto;border: 1px solid #EAEAEA;border-radius: 10rpx; padding: 10rpx 2%;position: relative;}
+.meeting-title{font-size: 14px;font-weight: bold;line-height: 60rpx;}
+.meeting-text{line-height: 40rpx;font-size: 14px;display: -webkit-box;display: -webkit-flex;display: flex;}
+.meeting-content{display: -webkit-box;display: -webkit-flex;display: flex;}
+.meeting-detail{-webkit-box-flex: 5;-webkit-flex: 5;flex: 5;}
+.meeting-status{-webkit-box-flex: 1;-webkit-flex: 1;flex: 1;line-height: 80rpx;}
+.meeting-now{color: rgba(254, 192, 115, 1);}
+.meeting-sign{height: 80rpx;}
+.meeting-sign-text{clear:both;width:20%;float: right;text-align: center;height: 50rpx;line-height: 50rpx;border: 1px solid #EAEAEA;border-radius: 20rpx;margin-top:10rpx;}
+.left-title{-webkit-box-flex: 1.5;-webkit-flex: 1.5;flex: 1.5;}
+.right-content{-webkit-box-flex: 5;-webkit-flex: 5;flex: 5;}
+.status-img{position: absolute;right:4%;top:6%}
+.status-img image{width: 100rpx;height: 100rpx;}
+
