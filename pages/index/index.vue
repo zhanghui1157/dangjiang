@@ -226,6 +226,7 @@
 </script>
 <style>
 	.news-list{width: 100%;height: 220upx;display: flex;margin:10upx auto;align-items: center;border-bottom: 1px solid #f7f7f7;}
+	.news-list:last-child{border: 0;}
 	.news-item-img{flex: 4;height: 180upx;}
 	.news-item-img image{width: 100%;height: 100%;border-radius: 10upx;}
 	.line-img{height: 30upx;width: 10upx;float: left;}
