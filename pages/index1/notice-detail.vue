@@ -37,7 +37,7 @@
 				t.detail=res.data.notice_info
 				if(t.detail.file){
 					for(var i=0;i<t.detail.file.length;i++){
-						t.detail.file[i]['upload_path']=t.sta.siteroot+'/uploads/'+t.detail.file[i]['upload_path'];
+						t.detail.file[i]['upload_path']=t.sta.siteupload+'/uploads/'+t.detail.file[i]['upload_path'];
 					}
 				}
 			})

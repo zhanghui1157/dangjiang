@@ -208,12 +208,12 @@
 			},
 			articleDetail:function(id){
 				uni.navigateTo({
-					url: '../article/article_detail?id='+id
+					url: '/pages/article/article_detail?id='+id
 				})
 			},
 			articleList:function(){
 				uni.navigateTo({
-					url: '../article/article-list?cat_id=30'
+					url: '/pages/article/article-list?cat_id=30'
 				})
 			},
 			doDocument:function(){

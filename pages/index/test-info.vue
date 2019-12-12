@@ -29,7 +29,8 @@
 							<label class="radio" v-for="(val,key) in item.questions_item" @click="answerClick(item.questions_id,key,'radio')">
 								<view class="question-answer-list">
 									<radio class="answer-list-check" style="transform:scale(0.7)" color="#e93a30"/>
-									<view class="answer-list-text">{{val.text}}</view>
+									<view class="answer-list-text"  v-if="item.questions_type=='判断'">{{val.text}}</view>
+									<view class="answer-list-text"  v-else>{{val}}</view>
 								</view>
 							</label>
 						</radio-group>

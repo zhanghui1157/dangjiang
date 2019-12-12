@@ -54,7 +54,7 @@
 				<view class="video-head-time">{{article_head.add_time}}</view>
 			</view>
 			<view class="video-content">
-				<view class="video-list" @click="articleDetail(item.material_id)" v-if="article_list" v-for="item in video_list">
+				<view class="video-list" @click="articleDetail(item.material_id)" v-if="article_list" v-for="item in article_list">
 					<view class="video-list-content">
 						<image :src="item.material_thumb" mode=""></image>
 					</view>
