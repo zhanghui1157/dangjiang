@@ -9,6 +9,7 @@ var func = {
 	getArtDetail:url+'Cmsarticle/get_cms_article_info',//获取新闻详情 
 	getDangList:url+'Hrcommunist/get_hr_communist_list',//获取党员列表 
 	getMeetingList:url+'Oameeting/get_oa_meeting_list',//获取党组织活动列表
+	getMeetingList1:url+'Oameeting/get_oa_meeting_list1',//获取党组织活动列表
 	getDanginfo:url+'Hrcommunist/get_hr_communist_info',//获取党组织详情    
 	getDangDetail:url+'Hrcommunist/get_hr_communist_detail',//获取党员信息    
 	getIntegralInfo:url+'Hrcommunist/get_hr_communist_integral_info',//获取志愿者积分详情接口    

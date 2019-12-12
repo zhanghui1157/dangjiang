@@ -71,7 +71,7 @@
 			}
 			t.urlRequest.urlRequest(t.func.getSurveyInfo,data,function(res){
 				t.is_have=res.data.is_have;
-				if(t.is_have==true){
+				if(t.is_have==true && t.status==0){
 					uni.showToast({
 						title: "您已提交过问卷",
 						duration: 2000,

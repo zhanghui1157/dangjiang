@@ -105,7 +105,7 @@
 			})
 			
 			//党组织活动
-			t.urlRequest.urlRequest(t.func.getMeetingList,{pagesize:9999,party_no:t.globalData.userInfo.party_no},function(res){
+			t.urlRequest.urlRequest(t.func.getMeetingList1,{pagesize:9999,party_no:t.globalData.userInfo.party_no},function(res){
 				for (var i = 0; i < res.data.list.length; i++) {
 					res.data.list[i]['add_time']=res.data.list[i]['add_time'].substring(0,10)
 				}

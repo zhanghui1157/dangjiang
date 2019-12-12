@@ -29,11 +29,9 @@
 	export default {
 		data() {
 			return {
-				
 			}
 		},
 		onLoad() {	
-			
 		},
 		methods: {
 			goUrl(num){
@@ -59,5 +57,4 @@
 	.addr-point{font-size: 50upx;color: #e93a30;float: left;font-weight: bold;line-height: 30upx;}
 	.addr-detail-text{font-size: 12px;color: #B3B3B3;float: left;margin-left: 10upx;line-height: 40upx;}
 	.addr-info{width: 100%;font-size: 14px;font-weight: bold;line-height: 50upx;clear: both;}
-
 </style>

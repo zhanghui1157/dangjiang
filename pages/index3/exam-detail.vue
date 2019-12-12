@@ -18,7 +18,8 @@
 				<view class="question-answer">
 					<label class="radio" v-for="(val,key) in item.questions_item">
 						<view class="question-answer-list">
-							<view class="answer-list-text">{{val}}</view>
+							<view class="answer-list-text"  v-if="item.questions_type=='判断'">{{val.text}}</view>
+							<view class="answer-list-text"  v-else>{{val}}</view>
 						</view>
 					</label>
 					<view class="answer-decs">我选择的答案是：【{{item.my_questions_item}}】；正确答案是【{{item.questions_answer}}】</view>

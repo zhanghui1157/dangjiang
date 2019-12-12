@@ -110,7 +110,7 @@
 					status:t.sta,
 				}
 				t.urlRequest.urlRequest(t.func.getMeetingList,data,function(res){
-					t.meeting_list=res.data.list;
+					t.meeting_list=res.data.meeting_list;
 					t.pagemax=res.data.count;
 					uni.hideLoading();
 				})
@@ -125,7 +125,7 @@
 					status:t.sta,
 				}
 				t.urlRequest.urlRequest(t.func.getMeetingList,{party_no:t.globalData.userInfo.party_no},function(res){
-					t.meeting_list=res.data.list;
+					t.meeting_list=res.data.meeting_list;
 					uni.hideLoading();
 					uni.stopPullDownRefresh();
 				})
@@ -144,12 +144,12 @@
 					page:t.pagenow,
 				}
 				t.urlRequest.urlRequest(t.func.getMeetingList,data,function(res){
-					if(res.data.list){
+					if(res.data.meeting_list){
 						setTimeout(() => {
 							t.haveData =true
 						}, 100);
 						
-						t.meeting_list = t.meeting_list.concat(res.data.list);
+						t.meeting_list = t.meeting_list.concat(res.data.meeting_list);
 						t.pagemax=res.data.count
 					}
 					uni.hideLoading();
