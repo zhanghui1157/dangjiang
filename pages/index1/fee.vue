@@ -31,28 +31,36 @@
 						<view class="fee-img">
 							<image src="../../static/img/grid-2.png" mode=""></image>
 						</view>
-						<view class="fee-txt">微信缴费</view>
+						<view class="fee-txt">
+							<view class="fee-des">微信缴费</view>
+							<view class="fee-desc">只支持非微信浏览器</view>
+						</view>
 					</view>
-					<view class="fee-desc">只支持非微信浏览器</view>
 				</view>
 				<view class="select-list-item" style="border-bottom: 1px solid #e8e8e8;" @click="doPay(2)">
 					<view class="item-list">
 						<view class="fee-img">
 							<image src="../../static/img/grid-2.png" mode=""></image>
 						</view>
-						<view class="fee-txt">微信缴费</view>
+						<view class="fee-txt">
+							<view class="fee-des">微信缴费</view>
+							<view class="fee-desc" v-if="dues_info.openid==1">只支持微信浏览器</view>
+							<view class="fee-desc" v-if="dues_info.openid==0">微信浏览器支付请点击此项先授权</view>
+						</view>
 					</view>
-					<view class="fee-desc" v-if="dues_info.openid==1">只支持微信浏览器</view>
-					<view class="fee-desc" v-if="dues_info.openid==0">微信浏览器支付请点击此项先授权</view>
+					
 				</view>
 				<view class="select-list-item" @click="doPay(3)">
 					<view class="item-list">
 						<view class="fee-img">
 							<image src="../../static/img/grid-8.png" mode=""></image>
 						</view>
-						<view class="fee-txt">支付宝缴费</view>
+						<view class="fee-txt">
+							<view class="fee-des">支付宝缴费</view>
+							<view class="fee-desc">只支持微信以外的浏览器中支付</view>
+						</view>
 					</view>
-					<view class="fee-desc">只支持微信以外的浏览器中支付</view>
+					
 				</view>
 			</scroll-view>
 		</uni-popup>
@@ -356,6 +364,7 @@
 	.item-list{display: flex;}
 	.fee-img{flex: 1.5;height: 80upx;}
 	.fee-img image{height: 50upx;width: 50upx;margin:0 auto;margin-top: 30upx;}
-	.fee-txt{flex: 8;height: 80upx;line-height: 100upx;text-align: left;}
-	.fee-desc{text-align: right;font-size: 12px;padding-bottom:10upx;color: #e93a30;}
+	.fee-txt{flex: 8;height: 120upx;text-align: left;}
+	.fee-des{height: 70upx;line-height: 80upx;}
+	.fee-desc{text-align: left;font-size: 10px;padding-bottom:10upx;color: #e93a30;}
 </style>

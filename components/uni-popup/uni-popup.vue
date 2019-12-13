@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<view class="uni-mask" v-show="show" :style="{ top: offsetTop + 'px' }" @click="hide" @touchmove.stop.prevent="moveHandle"></view>
+		<view class="uni-mask" v-show="show"  @click="hide" @touchmove.stop.prevent="moveHandle"></view>
 		<view class="uni-popup" :class="'uni-popup-' + position + ' ' + 'uni-popup-' + mode" v-show="show">
 			{{ msg }}
 			<slot></slot>
@@ -65,7 +65,7 @@
 		watch: {
 			h5Top(newVal) {
 				if (newVal) {
-					this.offsetTop = 44;
+					this.offsetTop = 0;
 				} else {
 					this.offsetTop = 0;
 				}
